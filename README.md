@@ -7,17 +7,20 @@
 [0.8V LDO](https://www.digikey.de/de/products/detail/microchip-technology/MCP1824T-0802E-OT/1635455), Replacement: [TPS78408QDBVRQ1](https://www.digikey.com/en/products/detail/texas-instruments/TPS78408QDBVRQ1/13563052)
 
 
-#  NerdQAxe++
-<img src="https://github.com/user-attachments/assets/e4ff81a3-103d-487d-b92c-4151bf7aecff" width="600px">
+# NerdQAxe++ Powermining revision
 
-The NerdQAxe++ is almost the same as the NerdQAxe+ but with this differences:
+Few improvements for revision that we manufacture
 
-- 4 x BM1370
-<img src="https://github.com/user-attachments/assets/e59b47c3-221b-4ca1-80bd-fd26008c72ec" width="300px">
 
-- 4.8TH/s average at ~76W (~15.8J/TH)
+## Features
 
-**rev5.0** Good to go, no bug found 🥳🚀
+- Car Minifuse
+- 180nH inductors (Eliminates frying VRM)
+- Level shifter pull-ups
+- LGA115* (75x75mm) mounting pattern
+- LGA2011 Narrow ILM (94x56mm) mounting pattern
+
+**rev6.1PM**
 
 # NerdQAxe+
 

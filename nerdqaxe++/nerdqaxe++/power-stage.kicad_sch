@@ -3522,7 +3522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27b06bc7-936f-4478-a743-8376af6f1297")
-		(property "Reference" "L5"
+		(property "Reference" "L2"
 			(at 161.29 104.14 90)
 			(effects
 				(font
@@ -3531,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "220nH"
+		(property "Value" "180nH"
 			(at 160.655 107.315 90)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "283-FP1008R5-R220-RCT-ND"
+		(property "OrderNr" "PA5187.181HLT"
 			(at 160.655 106.045 0)
 			(effects
 				(font
@@ -3584,7 +3584,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "FP1008R5-R220-R"
+		(property "PARTNO" "PA5187.181HLT"
 			(at 160.655 106.045 0)
 			(effects
 				(font
@@ -3615,11 +3615,11 @@
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409/c933835e-1a0a-497e-8f3e-ff83bdc9b421"
-					(reference "L5")
+					(reference "L2")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409/d87aafbc-5a0c-4aaa-b7ac-e134d88b6462"
-					(reference "L6")
+					(reference "L3")
 					(unit 1)
 				)
 			)

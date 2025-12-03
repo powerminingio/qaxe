@@ -148,6 +148,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Fuseholder Blade 3568:3568"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "3568"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "3568:FUSE_3568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "3568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "3568_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 0)
+					(mid -1.905 1.8967)
+					(end 0 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 1.905 -1.8967)
+					(end 0 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -595,10 +786,10 @@
 		(uuid "b5233783-4342-4ecf-8be1-54b903a1f39a")
 	)
 	(junction
-		(at 55.245 52.07)
+		(at 60.96 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4abd169-31b8-4876-9b55-a395ccee7425")
+		(uuid "d87ffc9e-2ee4-45ce-a96f-8be9fd3230d2")
 	)
 	(junction
 		(at 77.47 52.07)
@@ -928,17 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 52.07) (xy 55.245 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c56f15f-69a7-4163-ab93-23e787f3bcb1")
-	)
-	(wire
-		(pts
-			(xy 55.245 54.61) (xy 55.245 52.07)
+			(xy 60.96 54.61) (xy 60.96 52.07)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 66.675) (xy 55.245 62.23)
+			(xy 60.96 62.23) (xy 60.96 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1018,6 +1199,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cf5234-fe39-4d11-ab62-1a531bb6a75e")
+	)
+	(wire
+		(pts
 			(xy 99.695 57.785) (xy 114.3 57.785)
 		)
 		(stroke
@@ -1035,6 +1226,16 @@
 			(type default)
 		)
 		(uuid "c4941bdf-b184-45ef-b4d5-a110373a68c3")
+	)
+	(wire
+		(pts
+			(xy 33.02 52.07) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd9934a-f774-4ec3-9bf3-36ed8c8171c3")
 	)
 	(wire
 		(pts
@@ -1065,6 +1266,16 @@
 			(type default)
 		)
 		(uuid "d11b2266-a980-4125-ae7a-4160b48fa46b")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 77.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b87119-b5e0-485c-bf5c-9446ef4f5c50")
 	)
 	(wire
 		(pts
@@ -1125,16 +1336,6 @@
 			(type default)
 		)
 		(uuid "f8f45941-8fe8-4dcc-95c9-85c47cf30571")
-	)
-	(wire
-		(pts
-			(xy 55.245 52.07) (xy 77.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96f61ad-e5c9-4476-a51d-dbf52372e77b")
 	)
 	(wire
 		(pts
@@ -1312,7 +1513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.245 66.675 0)
+		(at 60.96 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1320,7 +1521,7 @@
 		(dnp no)
 		(uuid "366429d3-0b04-4b5a-af9f-869274df5c3d")
 		(property "Reference" "#PWR04"
-			(at 55.245 73.025 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.372 71.0692 0)
+			(at 61.087 71.7042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.245 66.675 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.245 66.675 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.245 66.675 0)
+			(at 60.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +2056,7 @@
 	)
 	(symbol
 		(lib_id "Diode:5KPxxA")
-		(at 55.245 58.42 270)
+		(at 60.96 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1863,7 +2064,7 @@
 		(dnp no)
 		(uuid "78b8dad5-172a-4fbb-a0fa-b5f4c2b863db")
 		(property "Reference" "D1"
-			(at 52.324 57.15 0)
+			(at 58.039 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +2074,7 @@
 			)
 		)
 		(property "Value" "5KPxxA"
-			(at 58.166 58.42 0)
+			(at 63.881 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2082,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 50.165 58.42 0)
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +2091,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
-			(at 55.245 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2100,7 @@
 			)
 		)
 		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2109,7 @@
 			)
 		)
 		(property "Distributor" "D"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2118,7 @@
 			)
 		)
 		(property "OrderNr" "SMBJ12ALFCT-ND"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2127,7 @@
 			)
 		)
 		(property "PARTNO" "SMBJ12A"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2136,7 @@
 			)
 		)
 		(property "Manufacturer " "UMW(Youtai Semiconductor Co., Ltd.)"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2145,7 @@
 			)
 		)
 		(property "LCSC" "C3001973"
-			(at 55.245 58.42 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,6 +2364,103 @@
 			(project "nerdqaxe++"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fuseholder Blade 3568:3568")
+		(at 49.53 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c763f547-f1af-477c-849e-922f2df0f067")
+		(property "Reference" "F1"
+			(at 49.53 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuseholder_Blade_Mini_Keystone_3568"
+			(at 49.53 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "8Axe:Fuseholder Blade_3568"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuseholder Mini Blade"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3568"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "36-3568-ND"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8142356-200c-4235-8800-1bf99de402a2")
+		)
+		(pin "2"
+			(uuid "4391fc6c-d77d-48f6-9802-fb6ae7912a8b")
+		)
+		(instances
+			(project "nerdqaxe++"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "F1")
 					(unit 1)
 				)
 			)
