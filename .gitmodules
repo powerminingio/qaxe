@@ -1,3 +1,0 @@
-[submodule "firmware/embassy"]
-	path = firmware/embassy
-	url = https://github.com/embassy-rs/embassy
