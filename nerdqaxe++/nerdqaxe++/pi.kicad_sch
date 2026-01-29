@@ -7137,6 +7137,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "T-Display S3 [H577]"
+			(at 144.145 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "T-Display S3 [H577]"
+			(at 144.145 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd5e1c6e-5043-44c9-b02b-60ca1a676866")
 		)

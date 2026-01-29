@@ -15168,10 +15168,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7794ee82-0e80-4735-91cb-057a9cf80544")
 		(property "Reference" "U25"
-			(at 219.3641 43.18 0)
+			(at 202.438 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,7 +15179,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 219.3641 45.72 0)
+			(at 217.678 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15188,7 +15187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myfootprints:BM1370"
+		(property "Footprint" "qaxe:BM1370_JB"
 			(at 233.68 101.6 0)
 			(effects
 				(font
@@ -17781,7 +17780,7 @@
 		(dnp no)
 		(uuid "93d78fc0-4afd-42a1-a075-ea61c7367858")
 		(property "Reference" "U26"
-			(at 219.3641 128.27 0)
+			(at 202.438 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17789,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 240.03 112.395 0)
+			(at 218.186 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +17797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myfootprints:BM1370"
+		(property "Footprint" "qaxe:BM1370_JB"
 			(at 233.68 186.69 0)
 			(effects
 				(font
@@ -19215,10 +19214,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abe7e068-0991-4d2a-826d-e3195df310f3")
 		(property "Reference" "U19"
-			(at 138.0841 43.18 0)
+			(at 121.158 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,7 +19225,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 138.0841 45.72 0)
+			(at 136.398 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19235,7 +19233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myfootprints:BM1370"
+		(property "Footprint" "qaxe:BM1370_JB"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -24328,10 +24326,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7fd677a-4796-46f4-bd1f-c45106257f69")
 		(property "Reference" "U20"
-			(at 138.0841 128.27 0)
+			(at 121.412 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24340,7 +24337,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 138.0841 130.81 0)
+			(at 136.906 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24348,7 +24345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "myfootprints:BM1370"
+		(property "Footprint" "qaxe:BM1370_JB"
 			(at 152.4 186.69 0)
 			(effects
 				(font
